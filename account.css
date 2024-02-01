@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth-btn {
+    display: flex;
+    width: 35%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.login {
+    background-color: aqua;
+    color: white;
+    border-radius: 5px;
+}
+
+.signup {
+    color: aqua;
+}
+
+body {
+    width: 500px;
+
+}
+
+.logo {
+    height: 100%;
+    width: auto;
+}
+
+.account {
+    height: 100px;
+    display: flex;
+}
