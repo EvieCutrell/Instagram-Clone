@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+}
+
+.text {
+    color: white; 
+}
+
+#top-banner {
+    /* display: flex; */
+    color: white;
+    /* align-self: flex-start; */
+    padding-right: 75vw;
+    /* padding-left: 10px; */
+    /* flex-wrap: wrap; */
+}
+
+#feed-nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3vw;
+}
+
+#feed-user-nav {
+    display: flex;
+    border: 2px solid white;
+}
+
+#feed-nav-button {
+    /* justify-content: flex-end; */
+    margin-left: 76vw;
+}
+
+#curr-post-username {
+    font-size: large;
+}
+
+#post-song{
+    font-size: small;
+}
+
+#post-banner-text{
+    padding-left: 3vw;
+    color: white;
+}
+
+#feed-img{
+    display: flex;
+    justify-content: center;
+}
+
+#lower-nav{
+    margin-left: 2vw;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#share{
+    margin-right: 75vw;
+}
+
+#feed-details{
+    display: flex;
+
+}
+
+.likes{
+    padding-bottom: 0px;
+}
