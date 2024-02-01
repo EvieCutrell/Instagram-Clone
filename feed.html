@@ -1,15 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="feedStyle.css" />
     <title>Multigram</title>
   </head>
-  <body>
-    <h1>Feed Page</h1>
 
-    <script src="script.js"></script>
+  <body>
+
+    <div id = "feed-nav">
+
+      <h1 class = "text" id = "top-banner">Multigram</h1>
+      <button>upload</button>
+      <button id = "account-button">Account</button>
+      
+    </div>
+      
+    
+    <div id = "feed-user-nav">
+      <p id = "post-banner-text"><span id = "curr-post-username"><b>joinmultiverse</b></span><br><span id = "post-song">SZA - Kill Bill(Sped Up Version)</span></p>
+      <p id = "post-song" class = "text"></p>
+      <button id = "feed-nav-button">...</button>
+    </div>
+  
+    <div id = "feed-img">
+      <img src="https://picsum.photos/400/500" alt="Post pic">
+    </div>
+    
+    <div id = "lower-nav">
+      <button id = "like-button">like</button>
+      <button id = "comment-button">comment</button>
+      <button id = "share-button">share</button>
+      <button id = "favorite-button">fave</button>
+    </div>
+    <p class = "text likes">0 likes</p>
+
+    <div id = "feed-details">
+      <p class = "text"><b><span class = "comment-username">joinmultiverse</span></b>&nbsp;<span class = "comment-text">would you do this?</span></p>
+      <button id = "comment-option-menu">more</button>
+    </div>
+    <button id = "comment-list">view all comments</button>
+
+    <script src="feedScript.js"></script>
   </body>
 </html>
